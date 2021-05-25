@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /-->
+
+    <LinearLayout
+        android:id="@+id/flightcontainer"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Spinner
+            android:background="@drawable/text_top"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/flightfrom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <Spinner
+            android:background="@drawable/text_middle"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/flightto"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <EditText
+            android:background="@drawable/text_bottom"
+            android:hint="Дата"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/date"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:ems="10"
+            android:inputType="date" />
+        <Button
+            android:textColor="#ffffff"
+            android:background="@drawable/button_find"
+            android:id="@+id/search"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:text="@string/search" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

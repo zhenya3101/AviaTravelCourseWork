@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Avia Travel</string>
+    <string name="title_home">Пошук</string>
+    <string name="title_travels">Мої квитки</string>
+    <string name="title_profile">Профіль</string>
+    <string name="search">Пошук</string>
+    <string name="fui_verify_phone_number_title" translation_description="Phone number entry form title">Введите свой номер телефона</string>
+    <string name="fui_invalid_phone_number" translation_description="Inline error when phone number entered is invalid">Введите действительный номер телефона</string>
+    <string name="fui_enter_confirmation_code" translation_description="Phone number verification code entry form title">Введите 6-значный код который мы прислали вам</string>
+    <string name="fui_resend_code_in" translation_description="Countdown timer text that the user needs to wait for before attempting to resend verification sms">Пересылка кода через 0:%02d</string>
+    <string name="fui_verify_your_phone_title" translation_description="Button text to complete phone number verification">Проверить номер телефона</string>
+    <string name="fui_verifying" translation_description="Progress dialog text while phone number is being verified">Проверка…</string>
+    <string name="fui_incorrect_code_dialog_body" translation_description="Inline error when incorrect sms verification code is being used to verify">Неверный код. Попробуйте снова.</string>
+    <string name="fui_error_too_many_attempts" translation_description="Error message when the phone number has been used too many times">Этот новер уже используется</string>
+    <string name="fui_error_quota_exceeded" translation_description="Error message when the Firebase project's quota has been exceeded.">Проблема проверки телефона</string>
+    <string name="fui_error_session_expired" translation_description="Error message when SMS confirmation code has expired.">Код неверной длины</string>
+    <string name="fui_sign_in_with_phone_number" translation_description="Label for phone number input form">Войдите по номеру телефона</string>
+    <string name="fui_auto_verified" translation_description="Popup informing the user that their phone number was automatically verified">Номер телефона автоматически проверен</string>
+    <string name="fui_resend_code" translation_description="Link text to resend verification sms">Переслать код</string>
+    <string name="fui_verify_phone_number" translation_description="Button text to submit confirmation code and complete phone verification">Проверка номера телефона</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

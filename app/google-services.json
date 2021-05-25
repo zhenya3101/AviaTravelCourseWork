@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "796451093045",
+    "firebase_url": "https://kurs-dbe59.firebaseio.com",
+    "project_id": "kurs-dbe59",
+    "storage_bucket": "kurs-dbe59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796451093045:android:3b743d7bbb10e223a30f7c",
+        "android_client_info": {
+          "package_name": "com.example.aviatravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796451093045-541qt1bt8q1n3o7jl9qcbasn5ms6uuil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0N6lTFfFq-NpnEWAghY5Y6gTkYWFZWsY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796451093045-541qt1bt8q1n3o7jl9qcbasn5ms6uuil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
